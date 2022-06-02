@@ -1,0 +1,31 @@
+.NewSkillForm{
+    border: 1vmin solid #325895;
+    background-color: #96f960;
+    color: #004643;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    text-align: left;
+    border: 0.2rem solid hsl(177, 100%, 14%);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 20px auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vmin;
+    font-weight: bold;
+    box-shadow: 6px 8px #001e1d;
+
+}
+.NewSkillForm>button{
+    grid-column: span 2;
+    background-color: #abd1c6;
+}
+.NewSkillForm > input,
+.NewSkillForm > select {
+  font-size: 1rem;
+  padding: 0.2rem;
+  border: 0.2rem solid #004643;
+  outline: none;
+}
